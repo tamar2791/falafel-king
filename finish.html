@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.html">
+    <title>מלך הפלאפל</title>
+    <style>
+        body {
+            position: relative;
+        }
+        #main {
+            position: absolute;
+            height: 98vh;
+            margin-left: 17.5vw;
+        }
+        #k{
+            position: absolute;
+            width: 270px;
+            left:13px;
+            bottom:35px
+        }
+        #h{
+            position: absolute;
+            width: 300px;
+            bottom:28px;
+            left:285px;
+        }
+        #p{
+            position: absolute;
+            width: 290px;
+            bottom:25px;
+            left:600px;
+        }
+        #d{
+            display: none;
+            position: absolute;
+            top: 7vh;
+            left: 4vw;
+            z-index: 2;
+        }
+        #kredit{
+            display: none;
+            position: absolute;
+            top: 7vh;
+            left: 4.5vw;
+            z-index: 2;
+        }
+        #x{
+            display: none;
+            position: absolute;
+            top: 10.5vh;
+            left: 5.5vw;
+            z-index: 3;
+        }
+        #c{
+            position: absolute;
+            top: 7vh;
+            left:19vw;
+            z-index: 1;
+        }
+        #cea{
+            position: absolute;
+            width:8vw;
+            left:25vw;
+            height: 7vh;
+            background-color: #FFCCCC;
+            top: 45vh;
+            z-index: 1;
+            font-weight: 800;
+            font-size: 50px;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+        #name{
+            position: absolute;
+            width:8vw;
+            height: 7vh;
+            background-color: #FFCCCC;
+            top: 37vh;
+            left:25vw;
+            z-index: 1;
+        }
+        #nikud{
+            position: absolute;
+            height:7vh;
+            background-color: #FFCCCC;
+            top: 20vh;
+            z-index: 1; 
+            width:8vw;
+            left:25vw;
+            font-weight: 800;
+            font-size: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <img src="pictures/בית/רקע.png" alt="">
+        <a href="game.html">
+            <img src="pictures/בית/שחק.png" alt="" id="p">
+        </a>
+        <img src="pictures/בית/הוראות.png" alt=""id="h">
+        <img src="pictures/בית/קרדיטים.png" alt=""id="k">
+        <img src="pictures/בית/דף הוראות.png" alt=""id="d">
+        <img src="pictures/בית/x.png" alt=""id="x">
+        <img src="pictures/בית/דף קרדיטים.png" alt="" id="kredit">
+        <img src="pictures/בית/שיא.png" alt="" id="c">
+        <div id="nikud"></div>
+        <div id="name"></div>
+        <div id="cea"></div>
+        
+    </div>
+
+    <script>
+        document.querySelector("#h").addEventListener("click",ho)
+        document.querySelector("#x").addEventListener("click",xx)
+        document.querySelector("#k").addEventListener("click",kk)
+        function kk(){
+            document.querySelector("#kredit").style.display="block"
+            document.querySelector("#x").style.display="block"
+            document.querySelector("#h").removeEventListener("click",ho)
+            document.querySelector("#k").removeEventListener("click",kk)
+            document.querySelectorAll("a")[0].style.display="none"
+        }
+        function ho() {
+            document.querySelector("#d").style.display="block"
+            document.querySelector("#x").style.display="block"
+            document.querySelector("#h").removeEventListener("click",ho)
+            document.querySelector("#k").removeEventListener("click",kk)
+            document.querySelectorAll("a")[0].style.display="none"
+        }
+        function xx() {
+            document.querySelector("#d").style.display="none"
+            document.querySelector("#kredit").style.display="none"
+            document.querySelector("#x").style.display="none"
+            document.querySelector("#h").addEventListener("click",ho)
+            document.querySelector("#x").addEventListener("click",xx)
+            document.querySelector("#k").addEventListener("click",kk)
+            document.querySelectorAll("a")[0].style.display="block"
+        }
+        document.querySelector("#cea").innerHTML=localStorage.getItem("c");
+        document.querySelector("#nikud").innerHTML=localStorage.getItem("now");
+    </script>
+</body>
+</html>
