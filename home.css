@@ -6,31 +6,31 @@ body {
     height: 98vh;
     margin-left: 17.5vw;
 }
-#k{
+#credit{
     position: absolute;
     width: 270px;
     left:13px;
     bottom:35px
 }
-#h{
+#ins{
     position: absolute;
     width: 300px;
     bottom:28px;
     left:285px;
 }
-#p{
+#play{
     position: absolute;
     width: 290px;
     bottom:25px;
     left:600px;
 }
-#d{
+#ins_page{
     display: none;
     position: absolute;
     top: 7vh;
     left: 4vw;
 }
-#kredit{
+#credit_page{
     display: none;
     position: absolute;
     top: 7vh;
