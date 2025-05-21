@@ -14,11 +14,274 @@ body {
     z-index: -1;
     color: #b95605;
 }
-#aa{
+
+#aa {
     position: absolute;
     left: 66.5vw;
     height: 100vh;
     width: 14vw;
-    background-color:white;
+    background-color: white;
     z-index: 100;
+}
+
+#phone {
+    position: absolute;
+    z-index: 3;
+    bottom: 5.5vh;
+    left: 57.1vw;
+}
+
+#score {
+    position: absolute;
+    left: 6vw;
+    width: 5vw;
+    height: 4vw;
+    top: 2.5vw;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 800;
+    font-family: Segoe UI;
+    background-color: #FFFFCD;
+}
+
+#pita {
+    position: absolute;
+    z-index: 4;
+    bottom: 14.9vh;
+    left: 51vw;
+}
+
+#hand_without_pita {
+    position: absolute;
+    z-index: 4;
+    bottom: 0vh;
+    left: 57vw;
+}
+
+#hand_take_pita {
+    position: absolute;
+    z-index: 4;
+    bottom: 0vh;
+    right: -60.5vw;
+    display: none;
+}
+
+#hand_with_pita {
+    position: absolute;
+    z-index: 4;
+    bottom: 0vh;
+    left: 48vw;
+    display: none;
+}
+
+#s0,
+#s1,
+#s2,
+#s3 {
+    position: absolute;
+    z-index: 4;
+    display: none;
+}
+
+#s0 {
+    left: 48vw;
+    bottom: 11vh;
+    width: 18vw;
+}
+
+#s1 {
+    left: 52vw;
+    bottom: 12vh;
+    width: 10vw;
+}
+
+#s2 {
+    left: 55vw;
+    bottom: 14.5vh;
+    width: 10vw;
+}
+
+#s3 {
+    left: 45vw;
+    bottom: 13vh;
+    width: 12vw;
+}
+
+#hand {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 5
+}
+
+#hand_half {
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+    height: 20vh;
+    display: none;
+}
+
+#hand_serve {
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+    display: none;
+}
+
+.h0,
+.h1,
+.h2 {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+}
+
+#food_in_stay {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
+#d1,
+#d2,
+#d3,
+#d4 {
+    position: absolute;
+    height: 10vh;
+    z-index: 3;
+}
+
+#d1 {
+    left: 33.7vw;
+    bottom: 0.8vh;
+    width: 15vw;
+}
+
+#d2 {
+    left: 33.7vw;
+    bottom: 15vh;
+    width: 13vw;
+}
+
+#d3 {
+    left: 15vw;
+    bottom: 1vh;
+    width: 18vw;
+}
+
+#d4 {
+    left: 18vw;
+    bottom: 14.7vh;
+    width: 13vw;
+}
+
+#p0,
+#p1,
+#p2,
+#p3 {
+    position: absolute;
+    width: 12vw;
+    height: 35vh;
+    z-index: 3;
+}
+
+#p0 {
+    left: 17vw;
+    top: 17vw;
+}
+
+#p1 {
+    left: 27vw;
+    top: 17vw;
+}
+
+#p2 {
+    left: 37vw;
+    top: 16.5vw;
+}
+
+#p3 {
+    left: 45.8vw;
+    top: 16.15vw;
+}
+
+#a0,
+#a1,
+#a2,
+#a3 {
+    position: absolute;
+    border: 2px solid black;
+    width: 1.3vw;
+    height: 15vh;
+    top: 1vh;
+    background-color: white
+}
+#a0 {
+    left: 20vw;
+}
+#a1 {
+    left: 30vw;
+}
+#a2 {
+    left: 40vw;
+}
+#a3 {
+    left: 50vw;
+}
+.j0,
+.j1,
+.j2,
+.j3,
+.j4 {
+    border: 1px solid black;
+    width: 1.3vw;
+    height: 2.8vh;
+}
+#n0,#n1,#n2,#n3{
+    position: absolute;
+    width: 5vw;
+    text-align: center;
+    height: 5vh;
+    z-index: 3;
+    font-weight: 800;
+    font-family: 'Segoe UI';
+    font-size: 24px;
+}
+#person{
+    position: absolute;
+    top: 47.2vh;
+    left: 3.2vw;
+}
+#open_person{
+    top: 20vh;
+    left: 1.4vw;
+    z-index: 10;
+    display: none;
+    position: absolute;
+}
+#o0,#o1,#o2,#o3{
+    width : 3vw;
+    height : 12vh;
+    position : absolute;
+    z-index : -2;
+}
+#o0{
+    top : 48vh;
+    left : 26.5vw;
+}
+#o1{
+    top : 60vh;
+    left : 16vw;
+}
+#o2{
+    top : 52vh;
+    left : 23vw;
+}
+#o3{
+    top : 57vh;
+    left : 20vw;
 }
