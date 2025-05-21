@@ -6,45 +6,32 @@ body {
     height: 98vh;
     margin-left: 17.5vw;
 }
-#k{
-    position: absolute;
-    width: 270px;
-    left:13px;
-    bottom:35px
-}
-#h{
+#ins{
     position: absolute;
     width: 300px;
-    bottom:28px;
-    left:285px;
+    bottom:60px;
+    left: 100px;;
 }
-#p{
+#play{
     position: absolute;
     width: 290px;
-    bottom:25px;
-    left:600px;
+    bottom:60px;
+    left:500px;
 }
-#d{
+#ins_page{
     display: none;
     position: absolute;
     top: 7vh;
     left: 4vw;
-    z-index: 2;
-}
-#kredit{
-    display: none;
-    position: absolute;
-    top: 7vh;
-    left: 4.5vw;
-    z-index: 2;
 }
 #x{
     display: none;
     position: absolute;
     top: 10.5vh;
     left: 5.5vw;
-    z-index: 3;
+    z-index: 2;
 }
+
 #c{
     position: absolute;
     top: 7vh;
