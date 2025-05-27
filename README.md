@@ -79,7 +79,7 @@
 - רפי ברקוביץ' – [rafib18@hotmail.com](mailto:rafib18@hotmail.com)  
 
 
-**תכנות:**
+**תכנות:**  
 [שירה](https://github.com/shirayung)  
 [תמר](https://github.com/tamar2791)  
 **גרפיקה:**  
