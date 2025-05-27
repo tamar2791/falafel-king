@@ -81,7 +81,9 @@
 
 **תכנות:**  
 - [שירה](https://github.com/shirayung)  
-- [תמר](https://github.com/tamar2791)  
+- [תמר](https://github.com/tamar2791)
+
+
 **גרפיקה:**  
 נדב גל
 
