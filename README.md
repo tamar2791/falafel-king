@@ -78,6 +78,10 @@
 - נדב גל – [nadavgal@barak-online.net](mailto:nadavgal@barak-online.net)  
 - רפי ברקוביץ' – [rafib18@hotmail.com](mailto:rafib18@hotmail.com)  
 
+
+**תכנות**
+[שירה](https://github.com/shirayung)
+[תמר](https://github.com/tamar2791)
 **גרפיקה:**  
 נדב גל
 
