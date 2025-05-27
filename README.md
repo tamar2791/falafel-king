@@ -80,8 +80,8 @@
 
 
 **תכנות:**  
-[שירה](https://github.com/shirayung)  
-[תמר](https://github.com/tamar2791)  
+- [שירה](https://github.com/shirayung)  
+- [תמר](https://github.com/tamar2791)  
 **גרפיקה:**  
 נדב גל
 
