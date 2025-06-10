@@ -1,53 +1,54 @@
-# 👑 מלך הפלאפל
 
-משחק אינטראקטיבי מהנה שבו אתה מנהל דוכן פלאפל עמוס לקוחות!
-המטרה – להכין פיתות מושלמות בהתאם להזמנות של הלקוחות ולצבור כמה שיותר נקודות לפני שמישהו מתעצבן!!!
+# 👑 Falafel King
 
----
-
-## 🎮 איך משחקים?
-
-במשחק מוצג דוכן פלאפל עם המרכיבים הבאים:
-- קערת **סלט**
-- קערת **חומוס**
-- קערת **פלאפל**
-- קערת **צ'יפס**
-
-ליד כל קערה מופיע **שלט** המציג כמה יחידות מהמרכיב יש לשים בפיתה עבור הלקוח הנוכחי.
-
-על המסך:
-- ערימת **פיתות** – לוחצים עליה כדי להתחיל הכנת פיתה חדשה.
-- **לקוחות** – עד 4 לקוחות בו-זמנית מחכים בתור. לכל לקוח יש **מד עצבים**.
+A fun interactive game where you run a busy falafel stand!
+The goal – make perfect pitas according to customers' orders and score as many points as possible before someone gets annoyed!!!
 
 ---
 
-## 🧠 כללי המשחק
+## 🎮 How to Play?
 
-- לחץ על ערימת הפיתות כדי להתחיל להכין פיתה.
-- הוסף לפיתה את המרכיבים לפי הכמויות שמופיעות על השלטים.
-- כאשר סיימת – לחץ על אחד הלקוחות כדי להגיש לו את הפיתה.
-- ברגע שמוגשת פיתה – מופיעה הזמנה חדשה לשירות לקוח נוסף.
+The game shows a falafel stand with the following ingredients:
+- Bowl of **Salad**
+- Bowl of **Hummus**
+- Bowl of **Falafel**
+- Bowl of **Fries**
 
----
+Next to each bowl is a **sign** showing how many units of that ingredient to put in the pita for the current customer.
 
-## 🏆 ניקוד
-
-| פעולה                     | ניקוד        |
-|--------------------------|-------------|
-| חומר נכון בפיתה          | +1 נקודות   |
-| חומר מיותר               | -1 נקודות   |
-| הגשת פיתה מלאה           | +5 נקודות   |
+On the screen:
+- A stack of **pitas** – click to start preparing a new pita.
+- **Customers** – up to 4 customers waiting in line simultaneously. Each customer has an **anger meter**.
 
 ---
 
-## ⚠️ תנאי סיום
+## 🧠 Game Rules
 
-- כל לקוח שמחכה מקבל **מד עצבים** שמתמלא ככל שעובר הזמן.
-- אם מד העצבים של אחד הלקוחות מתמלא עד הסוף – **המשחק נגמר**!
+- Click the pita stack to start preparing a pita.
+- Add ingredients to the pita according to the quantities shown on the signs.
+- When finished – click on a customer to serve the pita.
+- Once a pita is served – a new order appears for the next customer.
 
 ---
 
-## 🛠️ טכנולוגיות בשימוש
+## 🏆 Scoring
+
+| Action                   | Points       |
+|--------------------------|--------------|
+| Correct ingredient       | +1 point     |
+| Extra ingredient         | -1 point     |
+| Serving a full pita      | +5 points    |
+
+---
+
+## ⚠️ End Conditions
+
+- Each waiting customer has an **anger meter** that fills up over time.
+- If any customer's anger meter fills completely – **the game is over**!
+
+---
+
+## 🛠️ Technologies Used
 
 - HTML
 - CSS
@@ -55,58 +56,55 @@
 
 ---
 
-## 📷 צילום מסך
+## 📷 Screenshot
 
+![Game screenshot](screenshot.png)
 
-![צילום מסך של המשחק](screenshot.png)
 ---
 
-## 📦 התקנה והרצה
+## 📦 Installation and Running
 
-1. הורד את הרפוזיטורי או שיבט (clone) אותו למחשב שלך:
+1. Download or clone the repository to your computer:
    ```bash
    git clone https://github.com/tamar2791/falafel-king.git
    ```
-2. פתח את הקובץ home.html בדפדפן – וזה הכול! המשחק רץ מקומית ללא התקנה.
+2. Open the file `home.html` in your browser – that’s it! The game runs locally without installation.
 
-⚠️ הערה חשובה: המשחק יעבוד בצורה תקינה רק כאשר הדפדפן פתוח בגודל מסך של 24×16 ס"מ (בערך 960×640 פיקסלים). הקפד להתאים את חלון הדפדפן לגודל זה לקבלת חוויית משחק מלאה.
----
-## 🎬 קרדיטים
-
-**קונספט:**
-- דובי גרמייז – [dovg73@barak-online.net](mailto:dovg73@barak-online.net)  
-- נדב גל – [nadavgal@barak-online.net](mailto:nadavgal@barak-online.net)  
-- רפי ברקוביץ' – [rafib18@hotmail.com](mailto:rafib18@hotmail.com)  
-
-
-**תכנות:**  
-- [שירה](https://github.com/shirayung)  
-- [תמר](https://github.com/tamar2791)
-
-
-**גרפיקה:**  
-נדב גל
-
-**סאונד ותסריט:**  
-רפי ברקוביץ׳
+⚠️ Important note: The game works best when the browser window is sized about 24×16 cm (roughly 960×640 pixels). Please adjust your browser window to this size for the full gaming experience.
 
 ---
 
-## ⚖️ זכויות שימוש
+## 🎬 Credits
 
-- כל הזכויות שמורות ליוצרי המשחק.
-- ניתן להפיץ את המשחק באופן **חופשי**.
-- **אין לעשות שימוש מסחרי** במשחק או **לבצע בו שינויים** ללא רשות מפורשת מהיוצרים.
-  
-### בהצלחה ותהיו מלכי הפלאפל האמיתיים! 🌯👑
-#
+**Concept:**
+- Dovi Germaiz – [dovg73@barak-online.net](mailto:dovg73@barak-online.net)  
+- Nadav Gal – [nadavgal@barak-online.net](mailto:nadavgal@barak-online.net)  
+- Rafi Berkovich – [rafib18@hotmail.com](mailto:rafib18@hotmail.com)  
+
+**Programming:**  
+- [Shira](https://github.com/shirayung)  
+- [Tamar](https://github.com/tamar2791)
+
+**Graphics:**  
+Nadav Gal
+
+**Sound and Script:**  
+Rafi Berkovich
 
 ---
 
-## 🙋‍♀️ השתמשתם בפרויקט הזה?
+## ⚖️ Usage Rights
 
-אם הקוד הזה עזר לכם או שימש אתכם באיזשהו אופן – אשמח מאוד אם תתנו ⭐ לכוכב, או שתשאירו תגובה, issue, או אפילו רק תכתבו לי שזה שימש אתכם!
+- All rights reserved by the game creators.
+- The game can be freely distributed.
+- **No commercial use** or **modifications** allowed without explicit permission from the creators.
 
-זה עוזר לי לדעת שיש מי שמשתמש בפרויקט ולשפר אותו בעתיד. תודה! 💙
+### Good luck and be the true Falafel Kings! 🌯👑
 
+---
 
+## 🙋‍♀️ Did you use this project?
+
+If this code helped or served you in any way – I'd really appreciate a ⭐ star, a comment, an issue, or even just a quick message letting me know!
+
+It helps me know the project is useful and improve it in the future. Thanks! 💙
